@@ -1,4 +1,4 @@
-var nome = Esther
+var nome = "Esther"
 var idade = 16
 var altura = 1.60
 
