@@ -1,8 +1,8 @@
-document.write("<h1>Aula 1 - Exercício 2</h1>")
+document.write("<h1>Aula 01 - Exercício 2</h1>");
 
-var numero = prompt("Digite a temperatura em graus Fahrenheit");
+var fahrenheit = prompt("Digite a temperatura em Fahrenheit:");
 
-var calcius = Number (numero) - 32 * 5/9
+var celsius = (Number(fahrenheit) - 32) * 5 / 9;
 
- document.write("Temperatura em Celsius: " + celsius.toFixed(2) + "°C");
+document.write("<p>A temperatura em Celsius é " + celsius + "</p>");
 

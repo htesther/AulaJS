@@ -1,11 +1,9 @@
-document.write("<h1>Aula 1 - Exercício 3</h1>")
+document.write("<h1>Aula 01 - Exercício 3</h1>");
 
-var valor = prompt ("Digite o valor da prestação em atraso");
-var taxa = prompt ("Digite  ataxa de juros (em porcentagem)");
-var tempo = prompt ("Digite o tempo de dias de atraso");
+var valor = prompt("Digite o valor da prestação:");
+var taxa = prompt("Digite a taxa de juros (%):");
+var tempo = prompt("Digite os dias de atraso:");
 
-var vpar= Number(valor) + (Number(valor)*(Number(taxa))*(Number(taxa))/180)*
+var parcela = Number(valor) + (Number(valor) * (Number(taxa) / 100) * Number(tempo));
 
-document.write("<p>valor da prestação atrasada");
-
-document.write("<p>Valor da parcela é " + vpar + "</p>");
+document.write("<p>O valor da parcela é " + parcela + "</p>");
